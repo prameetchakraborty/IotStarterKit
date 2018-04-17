@@ -37,7 +37,6 @@ export default class Setup extends Component {
           <TextInput autoCapitalize="none" placeholder="iot.eclipse.org" style={styles.textInput1} onChangeText={value => this.setState(
                 { url: value }
               )} value={this.state.url} />
-          {/* <Button transparent onPress={() => navigate.pop()}> */}
           <Icon name="arrow-back" style={styles.icon3} />
           {/* </Button> */}
           <Icon name="arrow-forward" style={styles.icon4} />
